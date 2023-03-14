@@ -5,7 +5,6 @@ import IconButton from "@mui/material/IconButton";
 import  Collapse  from '@mui/material/Collapse';
 import Close from '@mui/icons-material/Close';
 import styles from 'styles/generador-claves.module.scss'
-import { css } from '@mui/styled-engine';
 import { Box } from '@mui/material';
 import { Typography } from '@mui/material';
 
