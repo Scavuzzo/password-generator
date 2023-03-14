@@ -50,7 +50,7 @@ $gen-color-green3: #0a9396;
       margin-bottom: 10px;
       margin-bottom: 0;
     }
-    select, input, option{
+    select, input {
       outline: none;
       font-family: $gen-title-font;
       border: 1px solid black;
@@ -59,6 +59,13 @@ $gen-color-green3: #0a9396;
       text-align: left;
       padding: .5em;
       border-radius: 5px;
+    }
+    select {
+      option {
+        padding: 20px;
+        display: block;
+        font-size: 12px;
+      }
     }
     select:hover {
       cursor: pointer;
